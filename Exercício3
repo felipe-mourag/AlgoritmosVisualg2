@@ -1,4 +1,4 @@
-algoritmo "sequenciadefibonacci"
+algoritmo "SequênciadeFibonacci"
 var
 t1,t2,t3,n,i: inteiro
 

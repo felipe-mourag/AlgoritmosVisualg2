@@ -1,0 +1,12 @@
+algoritmo "inversãoDeDigitos"
+var
+    teste,i: inteiro
+
+inicio
+    escreval("Digite um número de 3 dígitos: ")
+    leia(teste)
+  para i <- 1 ate 3 faca
+        escreval(teste % 10)
+        teste <- teste / 10
+  fimpara
+fimalgoritmo

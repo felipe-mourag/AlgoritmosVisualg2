@@ -1,0 +1,9 @@
+algoritmo "ConversãoMonetária"
+var
+reais,dolar: real
+inicio
+  escreval("Digite o valor em reais: ")
+  leia(reais)
+  dolar <- reais/5.39
+  escreval("O valor em dólar é: ",dolar)
+fimalgoritmo
