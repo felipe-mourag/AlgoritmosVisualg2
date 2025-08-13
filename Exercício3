@@ -1,0 +1,16 @@
+algoritmo "sequenciadefibonacci"
+var
+t1,t2,t3,n,i: inteiro
+
+inicio
+escreval("Digite quantos termos da sequência de Fibonacci deseja: ")
+leia(n)
+t1 <- 0
+t2 <- 1
+para i <- 3 ate n faca
+    escreva(t1)
+    t3 <- t1 + t2
+    t1 <- t2
+    t2 <- t3
+fimpara
+fimalgoritmo

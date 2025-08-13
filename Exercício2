@@ -1,0 +1,12 @@
+algoritmo "Fatorial"
+var
+   f,SF,g: inteiro
+inicio
+   SF <- 1
+   escreval("Digite de qual valor quer o fatorial: ")
+   leia(f)
+   para g <- 5 ate 1 passo -1 faca
+     SF <- SF*g
+   fimpara
+   escreva("O fatorial de ",f," é: ",SF)
+fimalgoritmo

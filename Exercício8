@@ -1,0 +1,14 @@
+algoritmo "Multiplos"
+var
+ t, M ,i,n,r : inteiro
+inicio
+   escreval("Quer multiplos de qual número? ")
+   leia(n)
+   escreval("Qual será o último multiplo: ")
+   leia(t)
+   para i <- 0 ate t faca
+      r <- n*m
+      escreval( "(",n, "  x  ",m,") =",r)
+      m <- m+1
+   fimpara
+fimalgoritmo

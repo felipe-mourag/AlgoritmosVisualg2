@@ -1,0 +1,16 @@
+algoritmo "Palíndromo"
+var
+c,c1: caractere
+i : inteiro
+inicio
+      escreval("Digite uma palavra: ")
+       leia(c)
+       para i <- 1 ate compr(c) passo -1 faca
+           c1 <- copia(c,i,1)+ c1
+       fimpara
+      se ( c = c1 ) entao
+         escreval("A palavra ",c," é um palíndromo")
+      senao
+         escreval("A palvra ",c," não é um palíndromo")
+      fimse
+fimalgoritmo

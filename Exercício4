@@ -1,0 +1,25 @@
+algoritmo "NúmeroPrimo"
+
+var
+n,i: inteiro
+primo : logico
+inicio
+escreva("Digite um valor: ")
+leia(n)
+se ( n % 2 = 0 ) e ( n > 2 ) entao
+    escreval(n, " não é um número primo.")
+senao
+    primo <- verdadeiro
+    para i <- 2 ate raiz(n) faca
+        se ( n % i = 0 ) entao
+            primo <- falso
+            escreval(n, " não é um número primo.")
+            pare
+        fimse
+    fimpara
+    se primo entao
+        escreval(n, " é um número primo.")
+    fimse
+fimse
+escreval("Fim do programa.")
+fimalgoritmo

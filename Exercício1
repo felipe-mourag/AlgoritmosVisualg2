@@ -1,0 +1,13 @@
+algoritmo "SomaPares"
+var
+  n,i,SP: inteiro
+inicio
+   para i <- 1 ate 5 faca
+     escreval("Digite um valor: ")
+     leia(n)
+     se ( n % 2 = 0 ) entao
+       SP <- SP + n
+     fimse
+   fimpara
+   escreval("A soma dos pares é : ",SP)
+fimalgoritmo

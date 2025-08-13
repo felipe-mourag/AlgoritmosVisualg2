@@ -1,0 +1,18 @@
+algoritmo "MédiaeAprovação"
+var
+ nome: caractere
+ nota1,nota2, M: real
+inicio
+   escreval("Nome do aluno : ")
+   leia(nome)
+   escreval("Primeira nota: ")
+   leia(nota1)
+   escreval("segunda nota : ")
+   leia(nota2)
+   M <- ((nota1 + nota2)/2)
+   se ( M >= 6 ) entao
+     escreval("O aluno ",nome," foi APROVADO com uma média ",M)
+   senao
+     escreval("O aluno ",nome," foi REPROVADO com uma média ",M)
+   fimse
+fimalgoritmo
